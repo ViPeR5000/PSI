@@ -146,12 +146,8 @@ Financial Cryptography and Data Security (FC’14) , LNCS. Springer, 2014.
  mv MIRACL/ Miracl
  cd ..
  ls
- ./demo.exe -r 0 -p 0 -f sample_sets/emails_alice.txt
- make
  sudo apt install make
- make
  sudo apt install gcc-7 g++-7
- make
  sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 7
  sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 7
  sudo update-alternatives --config gcc  # select the option with gcc-7 if necessary
