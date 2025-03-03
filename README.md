@@ -118,3 +118,48 @@ Financial Cryptography and Data Security (FC’14) , LNCS. Springer, 2014.
 
 [5] C. Meadows.   A more efficient cryptographic matchmaking protocol for use in the absence of a continuously available third party.   In IEEE S&P’86, pages 134–137. IEEE, 1986.
 
+
+
+### My History cmds
+
+
+```
+	mkdir git
+ cd git
+ sudo apt install git
+ ls
+ git clone https://github.com/bluetrickpt/PSI
+ ls
+ cd PSI
+ ls
+ cd src/
+ ls
+ cd externals/
+ ls
+ cd Miracl/
+ ls
+ cd ..
+ git clone https://github.com/miracl/MIRACL.git
+ ls
+ rm Miracl/
+ rm Miracl/ -R
+ mv MIRACL/ Miracl
+ cd ..
+ ls
+ ./demo.exe -r 0 -p 0 -f sample_sets/emails_alice.txt
+ make
+ sudo apt install make
+ make
+ sudo apt install gcc-7 g++-7
+ make
+ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 7
+ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 7
+ sudo update-alternatives --config gcc  # select the option with gcc-7 if necessary
+ sudo apt install openssl
+ sudo apt-get install libssl-dev
+ sudo apt-get install libglib2.0-dev
+ sudo apt-get install libgmp-dev
+ sudo apt-get install g++
+ make
+```
+
